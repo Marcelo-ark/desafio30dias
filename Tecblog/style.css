@@ -18,19 +18,24 @@ h1{
     font-size: 2.5em;
 }
 
+.branco{
+    color:white;
+
+}
 
 /* Fomatação menu*/
 
-a:link,a:visited {
+#area-cabeçalho a:link, #area-cabeçalho a:visited {
     color: #FFF;
     padding: 8px 12px;
    
 
 }
 
-a:hover{
+#area-cabeçalho a:hover{
     color: #f7b600;
     background-color: #FFF;
+    text-decoration: none;
 }
 a{
     
@@ -38,25 +43,113 @@ a{
 
 }
 
+#area-menu{
+    padding: 10px;
+}
 
 
-/*layout*/
-.area-cabeçalho{
+
+/*layout cabeçalho e logo*/
+#area-cabeçalho{
     background-color: #f7b600;
     padding: 15px;
     
 }
-.area-logo{
+#area-logo{
     padding:10px;
     text-align: center;
 }
 
-.area-menu{
-    padding: 10px;
+
+
+/*Cofiguração postagens */
+#area-principal{
+    
+    background-color: white;
+    width: 920px;
+    margin: 0 auto;
+
 }
-.branco{
-    color:white;
+
+#area-postagens, #area-lateral{
+    background-color: orange;
+}
+
+#area-postagens{
+    padding: top 15px;
+    background: white;
+    width: 660px;
+    float: left;
 }
 
 
+    
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+/*Rodape*/
+.rodape {
+    clear:both;
+    padding: 15px;
+    background-color: rgb(175, 166, 166);
+    text-align: center;
+    font-weight: bold;
+}
+
+/*COnfiguraçoes gerais*/
+
+h2{
+    color:#f7b600
+ }
+
+ .data-postagem{
+     font-size: 0.8em;
+     display: block;
+     border-bottom: 1px solid #f4f4f4;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+ }
+ a:link,  a:visited {
+    color: #f7b600;
+    padding: 8px 12px;
+   
+
+}
+
+ a:hover{
+    background:white;
+    color: #f7b600;
+    padding:3px;
+}
+a{
+    padding:10px;
+    text-decoration: none;
+
+}
+
+/*Configuração Lateral*/
+
+#area-lateral{
+    
+    width: 240px;
+    float:right;
+}
+.conteudo-lateral{
+    background: white;
+
+}
+.postagem-lateral{
+    font-size: 0,8em;
+    padding: 5px;
+
+}
+
+h3{
+    background: #ccc;
+    font-size: 1em;
+    padding:5px ;
+}
 
